@@ -7,4 +7,6 @@ jobs:
       - name: Print Greetings
         run: echo "Congratulation for your first workflow"
       - name: Print Goodbye
-        run: echo "Created by Harsh on 26 Nov"
+        run: |
+          echo "Created by Harsh on 26 Nov"
+          echo "Keep working hard"
